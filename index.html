@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=
+    , initial-scale=1.0">
+    <link  rel="stylesheet" href="style.css" >
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Arimo:wght@400;700&family=Libre+Franklin:wght@800&family=Tilt+Warp&display=swap" rel="stylesheet">
+    <title>Etch-a-Sketch</title>
+</head>
+
+<body>
+    <div class="top"><h1>Etch-a-Sketch</h1> </div>
+    <div class="inputContainer">
+        <input  id="colorChoice" type="color" name="base" oninput="setCurrentColor(this.value)">
+    
+         <button id ="color" >color</button>
+         <button id="rainbow">Rainbow</button>
+         <button id="erase">Erase</button>
+         <button id="reset"  >Reset</button>
+    </div>
+    <div class="slider">
+        <label class="res" for="res">16X16</label>
+        <input id="res" type="range" name="resolution" min="1" max="64" value="16"  onchange="changeSize(this.value)" >
+    </div>
+    <div id="squareGrid"></div>
+   
+<div class="content">
+
+</div>
+</body>
+<script src="main.js"> </script>
+</html>

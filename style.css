@@ -1,0 +1,96 @@
+
+*{ 
+     margin: 0;
+     padding: 0;
+     font-family: 'Arimo', sans-serif;
+     font-family: 'Libre Franklin', sans-serif;
+     font-family: 'Tilt Warp', cursive;
+}
+body{
+    background-color: #FAF8D4;
+}
+.top{
+    text-align: center;
+    margin-top: 0;
+    
+}
+.content{
+margin: auto;
+
+}
+
+.inputContainer{   
+    display: flex;
+    justify-content: center;
+    margin: 15px;
+    
+}
+.slider{
+    display: flex;
+    justify-content: center;
+}
+label{
+    display: inline-block;
+    outline: none;
+    cursor: pointer;
+    font-size: 14px;
+    line-height: 1;
+    border-radius: 360px;
+    transition-property: background-color,border-color,color,box-shadow,filter;
+    transition-duration: .3s;
+    border: 1px solid transparent;
+    
+    min-width: 160px;
+    text-transform: uppercase;
+   
+    font-weight: 700;
+    text-align: center;
+    outline:solid 3px  #B2A3B5;
+    color: #fff;
+    background-color: #B2A3B5;
+    height: 48px;
+    margin: 15px;
+}
+
+button, #colorChoice {
+    display: inline-block;
+    outline: none;
+    cursor: pointer;
+    font-size: 14px;
+    line-height: 1;
+    border-radius: 500px;
+    transition-property: background-color,border-color,color,box-shadow,filter;
+    transition-duration: .3s;
+    border: 1px solid transparent;
+    letter-spacing: 2px;
+    min-width: 160px;
+    text-transform: uppercase;
+    white-space: normal;
+    font-weight: 700;
+    text-align: center;
+    padding: 17px 48px;
+    color: #fff;
+    background-color: #B2A3B5;
+    height: 48px;
+   
+}
+button:hover{
+    transform: scale(1.04);
+    background-color: #91818A;
+}
+
+#squareGrid {
+    height: 500px;
+    width: 500px;
+    display: grid;
+    margin: auto;
+    outline:solid 3px  #91818A;
+    background-color: white;
+   
+}
+.square{
+   
+    background-color: white;
+    
+   
+}
